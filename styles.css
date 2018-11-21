@@ -1,0 +1,119 @@
+head{font-family: 'Baloo Tammudu', cursive;}
+
+body{
+    font-family: 'Baloo Tammudu', cursive;
+    /* background-color: maroon; */
+    color: #4D4F53;
+   background-color: #FFC300;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.heading{
+color:aquamarine;
+size: 22px;
+}
+
+.sub heading{
+    color: purple;
+    size: 18px;
+    }
+
+article{
+    border: solid  2px;
+    border-color: #ffffff;
+    padding: 2px;
+    margin: 10px;
+}
+
+.Projects{
+    font-family: 'Playfair Display', serif;
+    font-display: 20px; 
+}
+
+.previous{
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.Current{
+    font-family: 'Inconsolata', monospace;
+}
+
+
+#logo{
+    max-height: 60px;
+}
+#logo-btn{
+    margin-right: 5px;
+    margin-left: 65px;
+}
+
+#menu {
+    max-height: 60px;
+}
+
+#menu-btn {
+    margin-right: 5px;
+    margin-left: 0px;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 4px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: 'Baloo Tammudu', cursive;
+    min-width: 160px;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    background-color: #FDFDFD;
+    color: black;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #BBF2FE;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+#about-image{
+    width: 20%;
+}
+/* @media screen and (max-width: 767px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  /* @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  } */
+
+  #about-body{
+      margin: 10px 100px;
+      background-color: #FFC300;
+      color: #4D4F53;
+      padding: 5px;
+  }
